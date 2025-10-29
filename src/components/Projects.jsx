@@ -17,7 +17,7 @@ export default function Projects({ lang = 'en' }) {
   const t = translations[lang] || translations.en;
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}projects.json`)
+    fetch(`${import.meta.env.BASE_URL}my-portfolio/projects.json`)
       .then((res) => res.json())
       .then(setProjects);
   }, []);
