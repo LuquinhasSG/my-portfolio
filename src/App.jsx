@@ -20,6 +20,13 @@ export default function App() {
   const [fade, setFade] = useState(false);
   const timeoutRef = useRef();
 
+  // Forçar tema escuro como padrão
+  React.useEffect(() => {
+    document.documentElement.classList.add('dark');
+    document.body.classList.add('dark');
+    localStorage.setItem('theme', 'dark');
+  }, []);
+
 
   const handleLangChange = (newLang) => {
     if (newLang === lang) return;
@@ -77,7 +84,7 @@ export default function App() {
       <div className="fixed inset-0 -z-10 pointer-events-none">
         <div className="absolute inset-0 bg-white dark:bg-gradient-to-br dark:from-[#18181b] dark:via-[#232323] dark:to-[#252525] transition-colors duration-500" />
       </div>
-      <DarkModeToggle />
+  {/* <DarkModeToggle /> */}
       <LanguageToggle onChange={handleLangChange} />
       <div className={`transition-opacity duration-300 ${fade ? 'opacity-0' : 'opacity-100'}`}> 
         <Hero lang={lang} />
@@ -94,7 +101,7 @@ export default function App() {
         <Projects lang={lang} />
       </div>
       <footer className="w-full text-center py-8 text-[#8B1E3F] dark:text-[#E63946] text-sm">
-        &copy; {new Date().getFullYear()} Lucas Dillenburg. Inspired by Deadpool & Interestelar.
+        &copy; {new Date().getFullYear()} Lucas Dillenburg.
       </footer>
     </div>
   );

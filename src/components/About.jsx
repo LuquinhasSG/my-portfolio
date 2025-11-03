@@ -5,12 +5,12 @@ const translations = {
   en: {
     title: 'About Me',
     name: 'Lucas Dillenburg',
-    desc: 'Software Developer passionate about creating modern, scalable, and animated digital experiences. Peacemaker and geek pop culture fan. Always striving to evolve and deliver the best results!',
+  desc: 'Software Developer passionate about creating modern, scalable, and animated digital experiences. Always striving to evolve and deliver the best results!',
   },
   pt: {
     title: 'Sobre Mim',
     name: 'Lucas Dillenburg',
-    desc: 'Software Developer apaixonado por criar experiências digitais modernas, escaláveis e animadas. Fã de Peacemaker e cultura pop geek. Sempre buscando evoluir e entregar o melhor resultado!',
+  desc: 'Software Developer apaixonado por criar experiências digitais modernas, escaláveis e animadas. Sempre buscando evoluir e entregar o melhor resultado!',
   },
 };
 
