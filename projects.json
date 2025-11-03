@@ -1,33 +1,31 @@
 [
   {
-    "title": "Peacemaker Fan App",
-    "description": "A mobile app for Peacemaker fans to share memes and news.",
-    "image": "https://static.dc.com/2025-09/2025_09_30_CC_BlogRoll_Mobile_4x3.jpg?w=640",
-    "link": "#",
+    "title": "Allp",
+    "description": "Allp é um aplicativo mobile desenvolvido em Flutter para organização pessoal e de projetos, combinando listas, quadros e checklists em uma interface moderna e intuitiva. Utiliza Firebase Firestore para armazenamento em nuvem, autenticação de usuários, integração com sistema de pagamentos e recursos avançados de UX/UI.",
+    "image": "/my-portfolio/images/allp/0.png",
+    "link": "https://play.google.com/store/apps/details?id=com.lucasdillenburg.allp",
     "gallery": [
-      "https://static.dc.com/dc/files/default_images/Char_Thumb_Peacemaker_610860006b93d0.24360953.jpg?w=384",
-      "https://static.dc.com/2025-09/2025_09_30_CC_BlogRoll_Mobile_4x3.jpg?w=640",
-      "https://static.dc.com/dc/files/default_images/Char_Thumb_Vigilante_620dc9607a0cf5.61273915.jpg?w=384"
-    ]
-  },
-  {
-    "title": "Portfolio Website",
-    "description": "My personal portfolio themed on Peacemaker.",
-    "image": "https://static.dc.com/dc/files/default_images/Char_Thumb_Vigilante_620dc9607a0cf5.61273915.jpg?w=384",
-    "link": "#",
-    "gallery": [
-      "https://static.dc.com/2025-10/2025_10_07_ATQ_BlogRoll_Mobile_4x3.jpg?w=640",
-      "https://static.dc.com/dc/files/default_images/Char_Thumb_Peacemaker_610860006b93d0.24360953.jpg?w=384"
-    ]
-  },
-  {
-    "title": "Suicide Squad Integration",
-    "description": "A feature to connect Peacemaker fans with the Suicide Squad universe.",
-    "image": "https://static.dc.com/dc/files/default_images/ThumbChar_192x291_SuicideSquad01_558b711cab2cc7.78319011.jpg?w=192",
-    "link": "#",
-    "gallery": [
-      "https://static.dc.com/dc/files/default_images/ThumbChar_192x291_SuicideSquad01_558b711cab2cc7.78319011.jpg?w=192",
-      "https://static.dc.com/dc/files/default_images/Char_Thumb_Peacemaker_610860006b93d0.24360953.jpg?w=384"
+      "/my-portfolio/images/allp/0.png",
+      "/my-portfolio/images/allp/1.png",
+      "/my-portfolio/images/allp/2.png",
+      "/my-portfolio/images/allp/3.png",
+      "/my-portfolio/images/allp/4.png",
+      "/my-portfolio/images/allp/5.png",
+      "/my-portfolio/images/allp/6.png",
+      "/my-portfolio/images/allp/7.png",
+      "/my-portfolio/images/allp/8.png",
+      "/my-portfolio/images/allp/9.png",
+      "/my-portfolio/images/allp/10.png",
+      "/my-portfolio/images/allp/11.png",
+      "/my-portfolio/images/allp/12.png",
+      "/my-portfolio/images/allp/13.png",
+      "/my-portfolio/images/allp/14.png",
+      "/my-portfolio/images/allp/15.png",
+      "/my-portfolio/images/allp/16.png",
+      "/my-portfolio/images/allp/17.png",
+      "/my-portfolio/images/allp/18.png",
+      "/my-portfolio/images/allp/19.png",
+      "/my-portfolio/images/allp/20.png"
     ]
   }
 ]
